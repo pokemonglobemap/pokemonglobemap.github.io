@@ -24,8 +24,8 @@
 <img src="images/calimerged.png" usemap="#image-map">
 
 <map name="image">
-    <area code="G5G6" full="San Diego/Tijuana" alt="San Diego/Tijuana" coords="462,314,460,388,378,391,375,357,329,347,327,271,403,271,408,309" shape="poly">
-    <area code="G4" full="Anaheim" alt="Anaheim"  coords="567,408,569,449,610,449,610,482,528,493,531,413" shape="poly">
+    <area href="provinces/Dornsmere.html" code="G5G6" full="San Diego/Tijuana" alt="San Diego/Tijuana" coords="462,314,460,388,378,391,375,357,329,347,327,271,403,271,408,309" shape="poly">
+    <area href="provinces/Dornsmere.html" code="G4" full="Anaheim" alt="Anaheim"  coords="567,408,569,449,610,449,610,482,528,493,531,413" shape="poly">
 </map>
 
 <br></br>
@@ -46,7 +46,7 @@ var resizeTime = 50;     // total duration of the resize effect, 0 is instant
 var resizeDelay = 100;    // time to wait before checking the window size again
 
 $('img').mapster({
-mapKey: 'province',
+mapKey: 'code',
 clickNavigate: true,
 fillOpacity: 0.2,
 areas: [{key:"G5G6",tooltip:"San Diego/Tijuana",fillColor:"1F3D79"},{key:"G4",tooltip:"Anaheim",fillColor:"B06120"}
