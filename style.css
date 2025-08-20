@@ -5,6 +5,11 @@ body, html {
     background-color: #FFFFFF;
 }
 
+@font-face {
+    font-family: pokemon-emerald;
+    src: url("fonts/pokemon-emerald.woff2") format("woff2");
+}
+
 /* The hero image */
 .front {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -17,10 +22,27 @@ body, html {
   position: relative;
 }
 
+.tooltip-text {
+  font-family: 'pokemon-emerald';
+  font-size:20px;
+  margin-top:10px;
+  margin-bottom:10px;
+  color:black;
+}
+
+.tooltip-text2 {
+  font-family: 'pokemon-emerald';
+  font-size:22px;
+  margin-top:10px;
+  font-weight:bold;
+  margin-bottom:10px;
+  color:red;
+}
+
 /* Place text in the middle of the image */
-.bg-text {
-  font-family: 'MedievalSharp', cursive;
-  font-size:64px;
+/*.bg-text {
+  font-family: 'pokemon-emerald';
+  font-size:16px;
   z-index:3;
   text-align: center;
   position: absolute;
@@ -30,11 +52,11 @@ body, html {
 }
 
 .bg-text h1,p {
-  font-family: 'MedievalSharp', cursive;
-  font-size:64px;
+  font-family: 'pokemon-emerald';
+  font-size:18px;
   margin-top:10px;
   margin-bottom:10px;
-}
+}*/
 
 .bg-emblem {
   z-index:3;
@@ -71,6 +93,7 @@ body, html {
   font-size: 16px;
 }
 
+
 .province-img {
   text-align: center;
 }
@@ -80,7 +103,7 @@ body, html {
   text-align:center;
   text-justify: inter-word;
   line-height:150%;
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'pokemon-gen3-battle', cursive;
   font-size:64px;
 }
 
@@ -96,7 +119,7 @@ body, html {
 }
 
 .navBox p,img {
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'pokemon-gen3-battle', cursive;
   font-size: 16px;
   font-style:italic;
   margin:0 auto;
@@ -104,6 +127,7 @@ body, html {
   display:flex;
   justify-content:center;
 }
+
 
 .navBoxChild {
   text-align: center;
